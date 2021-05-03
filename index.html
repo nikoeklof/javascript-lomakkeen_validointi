@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Rekisteröitymislomake</h1>
+        <div id="lomakeContainer">
+            <form id="lomake">
+                <p class="col">
+                    <label for="userID">Käyttäjän ID: *</label>
+                    <input id="userID" type="text">
+
+                </p>
+                <p class="col">
+                    <label for="userPass">Salasana: *</label>
+                    <input id="userPass" type="password">
+
+                </p>
+                <p class="col">
+                    <label for="userName">Nimi: *</label>
+                    <input id="userName" type="text">
+                    
+                </p>
+                <p class="col">
+                    <label for="userAddress">Osoite: *</label>
+                    <input id="userAddress" type="text">
+
+                </p>
+                <p class="col">
+                    <label for="maa">Maa: *</label>
+                    <select name="maa" id="userCountry">
+                    <optgroup label="Valitse maa">
+                        <option value="" selected disabled hidden>(Valitse maa)</option>
+                        
+                    </optgroup>
+                    </select>
+
+                </p>
+                <p class="col">
+                    <label for="userPostal">Postinumero: *</label>
+                    <input id="userPostal" type="number">
+                    
+                    
+                </p>
+                <p class="col">
+                    <label for="userEmail">Sähköposti: *</label>
+                    <input id="userEmail" type="email" placeholder="example@email.com">
+                </p>
+                <p class="col">
+                    <label style="transform: translateY(-65%); position: sticky;" for="userAdditional">Lisätietoja:</label>
+                    <textarea name="userAdditional" id="userAdditional" cols="30" rows="3" placeholder="Kirjoita tähän..."></textarea>
+                </p>
+                <p class="col">
+                    <input style="transform: translateX(100%);" id="submit" type="submit" value="Lähetä">
+                </p>
+            </form>
+            <p style="text-align:center; font-size: .75rem; font-style:italic ;">
+                *Tähdellä merkityt kentät ovat pakollisia
+            </p>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>

@@ -1,0 +1,58 @@
+body {
+    font-family: 'poppins';
+}
+
+#container {
+    margin: auto;
+    margin-top: 5rem;
+    width: 60%;
+}
+
+form {
+    display: table;
+}
+
+.col {
+    display: table-row;
+}
+
+label {
+    display: table-cell;
+    text-align: right;
+    position: static;
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number]{
+    -moz-appearance: textfield;
+}
+input {
+    min-width: 13em;
+}
+
+input,
+select,
+textarea {
+    display: table-cell;
+    margin: .45rem;
+}
+
+#submit {
+    align-content: center;
+}
+
+input:hover,
+input:focus,
+select:hover,
+select:focus {
+    outline: solid 1px rgba(255, 0, 0, 0.267);
+}
+
+#lomakeContainer {
+    width: 45%;
+    display: table;
+}
