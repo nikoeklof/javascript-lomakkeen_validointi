@@ -27,7 +27,7 @@
                 <p class="col">
                     <label for="userName">Nimi: *</label>
                     <input id="userName" type="text">
-                    
+
                 </p>
                 <p class="col">
                     <label for="userAddress">Osoite: *</label>
@@ -47,12 +47,33 @@
                 <p class="col">
                     <label for="userPostal">Postinumero: *</label>
                     <input id="userPostal" type="number">
-                    
-                    
+
+
                 </p>
                 <p class="col">
                     <label for="userEmail">Sähköposti: *</label>
                     <input id="userEmail" type="email" placeholder="example@email.com">
+                </p>
+                <p class="col">
+                    <label for="gender">Sukupuoli: *</label>
+                    <label for="male" style="margin-left: 1em; width: 5rem; display: inline-flex;">Mies</label>
+                    <input id="male" name="gender" type="radio" value="Mies">
+                    <br>
+                    <label for="female" style="margin-left: 1em; width: 5rem; display: inline-flex;">Nainen</label>
+                    <input id="female" name="gender" type="radio" value="Nainen">
+                    <br>
+                    <label for="other" style="margin-left: 1em; width: 5rem; display: inline-flex;">Muu</label>
+                    <input id="other" name="gender" type="radio" value="Muu">
+
+                </p>
+                <p class="col">
+                    <label for="language">Äidinkieli: *</label>
+                    <label for="fin" style="margin-left: 1em; width: 5rem; display: inline-flex;">Suomi</label>
+                    <input type="checkbox" name="fin" id="fin">
+                    <br>
+                    <label for="other"style="margin-left: 1em; width: 5rem; display: inline-flex;">Muu</label>
+                    <input type="checkbox" name="other" id="other">
+                    <br>
                 </p>
                 <p class="col">
                     <label style="transform: translateY(-65%); position: sticky;" for="userAdditional">Lisätietoja:</label>

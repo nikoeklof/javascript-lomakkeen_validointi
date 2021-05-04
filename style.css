@@ -20,16 +20,23 @@ label {
     display: table-cell;
     text-align: right;
     position: static;
-    
 }
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
-input[type=number]{
+
+input[type=radio] {
+    display: inline;
+    max-width: 20px;
+}    
+
+input[type=number] {
     -moz-appearance: textfield;
 }
+
 input {
     min-width: 13em;
 }

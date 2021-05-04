@@ -263,6 +263,10 @@ function laheta(event) {
         event.preventDefault()
 
     }
+    if (lomake[10].checked == false && lomake[11].checked == false) {
+        alert('Valitse äidinkielesi!')
+        event.preventDefault()
+    }
     for (i = 0; i < 7; i++) {
         if (lomake[i].value == '')
             switch (i) {
